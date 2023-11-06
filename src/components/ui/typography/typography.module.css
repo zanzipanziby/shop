@@ -1,0 +1,108 @@
+
+.large {
+    font-size: var(--font-size-xxl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-l);
+
+}
+
+.h1 {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-l);
+
+}
+
+.h2 {
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-m);
+
+}
+
+.h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-m);
+
+}
+
+.body1 {
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-m);
+
+}
+
+.subtitle1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-m);
+
+}
+
+.body2 {
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-m);
+
+}
+
+.subtitle2 {
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-m);
+
+}
+
+.overline {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-s);
+
+}
+
+.caption {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-s);
+
+}
+
+.link1,
+.link1:visited {
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-m);
+
+    cursor: pointer;
+    color: var(--color-text-link);
+    text-decoration: underline;
+}
+
+.link2,
+.link2:visited {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-s);
+
+    cursor: pointer;
+    color: var(--color-text-link);
+    text-decoration: underline;
+}
+
+.error {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-m);
+
+    color: var(--color-danger-300);
+}
+
+.label {
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-s);
+}
